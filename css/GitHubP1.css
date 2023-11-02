@@ -1,0 +1,338 @@
+nav .logo {
+	height: auto;
+	width: 300px;
+}
+
+
+
+
+
+
+body {
+	background-color: #464e6b37;
+	font-family: 'Raleway', sans-serif;
+}
+
+#p1 {
+	height: 600px;
+	display: flex;
+	width: 100%;
+    
+}
+
+#p1 img {
+	width: 0px;
+	flex-grow: 1;
+	object-fit: cover;
+	transition: .5s ease;
+	opacity: .9;
+	padding: 2px;
+    border-radius: 25px;
+}
+
+#p1 img:hover {
+	width: 150px;
+	opacity: 1;
+	cursor: cell;
+	filter: contrast(120%);
+    border-radius: 10px;
+}
+
+
+
+
+  /* Estilo del menú */
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+	
+
+  }
+
+  li {
+    display: inline-block;
+    position: relative;
+	padding: 8px;
+  }
+
+  li a {
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    color: #000;
+    background: #fefefe;
+	border-radius: 50%;
+
+
+	/*box-shadow: 5px 10px 27px   #000000;
+	border-bottom: 4px;*/
+  }
+
+  /* Estilo de los submenús */
+  ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #ffffff;
+  }
+
+  li:hover > ul {
+    display: inherit;
+	background-color: none;
+	
+  }
+
+  ul ul li {
+    width: 200px;
+    display: block;
+  }
+
+  ul ul li a {
+    padding: 8px 10px;
+  }
+
+
+
+
+nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 20px;
+	padding-left: 0%;
+	padding-right: 0%;
+	font-weight: bold;
+}
+
+h1 {
+	font-size: 62px;
+	color: rgb(255, 255, 255);
+	font-weight: bolder;
+}
+
+/*ul li {
+	display: inline-block;
+	padding: 5px 30px;
+	font-weight: bold;
+	box-shadow: 5px 10px 27px   #000000;
+	border-radius: 5px;
+	border-bottom: 4px;
+}*/
+
+a {
+	color: rgb(39, 0, 168);
+	text-decoration: solid;
+	font-weight: bolder;
+	font-size: 20px;
+	
+}
+
+a:hover {
+	color: rgb(139, 3, 3);
+	font-size: 25px;
+	
+}
+
+
+
+.contenedor {
+	display: flex;
+	color: #161f5e;
+	background-color: rgba(255, 255, 255, 0.942);
+	border-radius: 15px;
+    text-align: center;
+	font-weight: bold;
+	
+}
+
+.contenedor a {
+	color: rgb(245, 2, 83)
+}
+
+.contenedor a:hover {
+	color: #41a1de;
+}
+
+.contenedor div:hover {
+	background-color: rgba(0, 0, 0, 0.1);
+	border-radius: 7px;
+	transition: .5s ease;
+	opacity: .9;
+	filter: contrast(120%);
+	
+}
+
+.columnas {
+	padding: 0 7px;
+}
+
+
+
+
+
+
+
+
+
+
+
+article h2 {
+	color: rgb(255, 255, 255);
+	/*background-color: #1a9696fe;*/
+	border-radius: 5px;
+	padding: 0px 5px;
+	background-color:  orange;
+}
+
+.contenedor h3 {
+	font-size: 30px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+footer{
+width: 100%;
+padding: 50px 0px;
+background-image: url(../img/background-footer.svg);
+background-size: cover;
+border-radius: 10px;
+font-weight: bold;
+}
+
+
+.contenedor__footer {
+
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+max-width: 1200px;
+margin: auto;
+margin-top: 100px;
+}
+
+.box__footer {
+
+    display: flex;
+    padding: 40px;
+    flex-direction: column;
+}
+
+
+
+.box__footer .logo img{
+
+    width: 190px;
+
+}
+
+.box__footer .terminos {
+
+    max-width: 350px;
+    margin-top: 20px;
+    font-weight: 500;
+    color: orange;
+    font-size: 15px;
+}
+
+
+
+.box__footer h2{
+
+    margin-bottom: 30px;
+    color: #343434;
+    font-weight: 700;
+}
+
+.box__footer a {
+margin-top: 10px;
+color: orange;
+font-weight: 600;
+}
+
+
+.box__footer a:hover {
+
+opacity: 0.8;
+
+}
+
+.box__footer a .fab {
+
+    font-size: 20px;
+
+}
+
+
+
+.box__copy {
+    max-width: 1200px;
+text-align: center;
+    margin: auto;
+    padding: 0px 40px;
+}
+  
+
+.box__copy p{
+
+    margin-top: 20px;
+    color: #7a7a7a;
+
+}
+
+.box__copy hr{
+    border: none;
+    height: 1px;
+    background-color: #000000;
+}
+
+
+.arriba { 
+	border-radius: 15px;
+    font-weight: bold;
+	padding: 12px;
+	background-color: orange;
+	height: 100px;
+	position: relative;
+	top: 1%;
+	justify-content: space-between;
+}
+
+
+.arriba nav { 
+	position: relative;
+top: -60px;
+opacity: 6;
+
+}
+
+
+
+
+
+.pasando {
+
+margin-right: 25cm;
+
+}
+
+.circulo {
+
+background-color: rgb(0, 0, 0);
+align-content: center;
+position: relative;
+border-radius: 60%;
+
+}
+
+.texto_grande{
+font-weight: bolder;
+zoom: 100%;
+font-size: 17px;
+
+
+}
+
+

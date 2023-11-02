@@ -1,0 +1,104 @@
+*{
+padding: 0%;
+    
+}
+
+/*body  body  body  body  body  body  body  body  body  body  body  body  body  body  body  body  body  body  body  body  body  body  body  body  */
+iframe{
+    display: flex;
+height: 400px;
+width: 100%;
+border-radius: 0%;
+
+}
+
+ h4{
+margin-left:0%;
+font-size: 40px;
+padding:0px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin-top: -1%;
+background-color: rgb(232, 202, 202);
+text-align: center;
+}
+
+
+body {
+/*background-image: url(https://viajerosocultos.com/wp-content/uploads/2021/08/dominican-republic-2824492_1920.jpg);*/
+    background-color: #464e6b37;
+   padding-top: -1%;
+    border-radius: 6%;
+    padding: 8%;
+    
+}
+
+.mapa{
+    padding: 5%;
+    background-color: #ffffff;
+    border-radius: 7%;
+    
+}
+
+img{
+background-color: rgb(255, 255, 255);
+margin-bottom: 20px;
+width: auto;
+height: 100px;
+position: relative;
+}
+ 
+
+/*FORMULARIO  FORMULARIO  FORMULARIO  FORMULARIO  FORMULARIO  FORMULARIO  FORMULARIO  FORMULARIO  FORMULARIO  FORMULARIO  FORMULARIO  FORMULARIO  */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+
+  h1 {
+    color: #333333;
+  }
+
+  h2 {
+    color: #666;
+  }
+
+  p, input, textarea {
+    margin-bottom: 10px;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  ul li {
+    margin-bottom: 5px;
+  }
+
+  a {
+    color: #337ab7;
+    text-decoration: none;
+  }
